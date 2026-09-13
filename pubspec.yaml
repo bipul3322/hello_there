@@ -1,0 +1,39 @@
+name: hello_there_app_dev
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+
+dependencies:
+  cached_network_image: ^4.0.0
+  cloud_firestore: ^6.9.0
+  firebase_auth: ^6.6.1
+  firebase_core: ^4.14.0
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^3.4.3
+  go_router: ^18.0.1
+  intl: ^0.20.2
+  permission_handler: ^13.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: "assets/icon/hello_there.png"
+  android: true
+  ios: false
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/hello_there_icon.jpeg"
